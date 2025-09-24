@@ -1,18 +1,10 @@
-import React from 'react';
-import Navbar from './components/Navbar';
-import './index.css';
-import Hero from './components/Hero';
-import About from './components/About';
-import Temple from './components/Temple';
-
+import React from "react";
+import Home from "./Pages/Home"; 
 
 function App() {
   return (
-    <div className="scroll-smooth">
-      <Navbar />
-      <Hero />
-      <About />
-      <Temple />
+    <div className="App">
+      <Home />
     </div>
   );
 }

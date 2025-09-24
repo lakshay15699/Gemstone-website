@@ -14,10 +14,10 @@ const Temple = () => {
           precision with their temple jewellery collection, each piece
           handcrafted to perfection.
         </p>
-        <button className="inline-flex self-start items-center  text-gray-200 px-2 py-1 rounded-sm border-2 border hover:border-transparent transition duration-300 text-sm">
+        <button className="inline-flex self-start items-center text-gray-200 text-base">
           Explore Collection
           <svg
-            className="ml-1 w-3 h-3"
+            className="ml-2 w-5 h-7"
             fill="none"
             stroke="currentColor"
             strokeWidth="2"
