@@ -1,9 +1,16 @@
-import React from "react";      
+import React , {useState} from "react";      
+import{AiOutlineClose, AiOutlineMenu} from 'react-icons/ai';
 
 const Navbar = () => {
+
+  const [nav, setNav] = useState(false);
+  const handleNav = () => {
+    setNav(!nav);
+  }
+
   return (
-    <nav className="px-6 py-3 flex items-center fixed top-0 left-0 w-full bg-white text-white bg-opacity-0 backdrop-md z-40">
-      {/* Logo */}
+    <nav className="px-6 py-3 flex items-center fixed top-0 left-0 w-full bg-white text-white bg-opacity-0 backdrop-md z-40 ">
+      
       <div className="text-2xl font-bold">
         <img
           src="/images/sayar-white-logo.svg"
@@ -12,9 +19,9 @@ const Navbar = () => {
         />
       </div>
 
-      {/* Center Nav Links */}
-      <div className="flex-grow flex justify-center">
-        <ul className="flex flex-col md:flex-row list-none justify-center md:justify-between w-full md:max-w-2xl text-white font-semibold">
+      
+      <div className="flex-grow  flex justify-center">
+        <ul className="flex list-none justify-center md:justify-between w-full md:max-w-2xl text-white font-semibold  " >
           <li>
             <a href="#" className="p-3 md:p-6 block text-center">
               COLLECTIONS
@@ -42,6 +49,7 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
+      
 
     
       <div className="flex pl-0 md:pl-20 mt-2 md:mt-0">
@@ -69,10 +77,13 @@ const Navbar = () => {
     <span>9841068852</span>
   </a>
       </div>
+
+      
     </nav>
 
     
-  );
+  );  
+
   
 }   
 

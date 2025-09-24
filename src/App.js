@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import './index.css';
 import Hero from './components/Hero';
 import About from './components/About';
+import Temple from './components/Temple';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Temple />
     </div>
   );
 }

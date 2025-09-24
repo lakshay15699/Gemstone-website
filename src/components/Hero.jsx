@@ -30,7 +30,7 @@ const Hero = () => {
 
         
         <div>
-          <button className="inline-flex items-center bg-white-600 hover:bg-red-700 text-white px-4 md:px-6 py-2 md:py-3 rounded-lg border-2 border-white hover:border-transparent transition duration-300">
+          <button className="inline-flex items-center bg-white-600 hover:bg-red-800 text-white px-4 md:px-6 py-2 md:py-3 rounded-lg border-2 border-white hover:border-transparent transition duration-300">
             Explore Collections
             <svg
               className="ml-2 w-4 h-4 md:w-5 md:h-5"
