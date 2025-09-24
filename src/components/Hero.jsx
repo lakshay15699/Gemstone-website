@@ -4,12 +4,12 @@ import background from '../assests/background.jpg';
 const Hero = () => {
   return (
     <div
-      className="h-screen bg-no-repeat bg-right bg-cover "
+      className="relative h-screen bg-no-repeat bg-right bg-cover "
       style={{ backgroundImage: 'url(' + background + ')' }}
     >
-      <div className="absolute inset-0 bg-black opacity-50"></div>
+      <div className="absolute inset-0 bg- opacity-50"></div>
 
-      <div className="fixed z-10 flex flex-col h-full text-left text-white px-4">
+      <div className="relative z-10 flex flex-col h-full text-left text-white px-4">
         <div className="text-2xl font-bold mb-2 mt-20 text-left">Welcome to</div>
         <h1 className="text-8xl font-bold mb-4 text-left">Sayar Jewellers</h1>
        <div className="w-1/2">
