@@ -1,5 +1,5 @@
 import React from "react";
-import templebg from "../assests/temple-jewellery-bg.webp";
+import templebg from "../assets/temple-jewellery-bg.webp";
 
 const Temple = () => {
   return (
@@ -37,7 +37,7 @@ const Temple = () => {
         style={{ backgroundImage: "url(" + templebg + ")" }}
       ></div>
     </div>
-  );
+  )
 };
 
 export default Temple;

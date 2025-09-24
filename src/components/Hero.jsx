@@ -1,16 +1,17 @@
 import React from "react";
-import background from '../assests/background.jpg';
+import background from '../assets/background.jpg';
 
 const Hero = () => {
   return (
     <div
       className="relative h-screen bg-no-repeat bg-center md:bg-right bg-cover "
+      
       style={{ backgroundImage: 'url(' + background + ')' }}
     >
-       <div className="absolute inset-0 bg-black bg-opacity-50"></div>
+       <div className="absolute inset-0 bg-black bg-opacity-50" ></div>
 
       
-      <div className="relative z-10 flex flex-col justify-center h-full text-left text-white px-4 md:px-12">
+      <div className="relative z-10 flex flex-col justify-center h-full text-left text-white px-4 md:px-12" >
         <div className="text-xl md:text-2xl font-bold mb-2 mt-20 md:mt-0">
           Welcome to
         </div>
