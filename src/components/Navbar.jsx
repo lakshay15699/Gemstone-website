@@ -7,7 +7,7 @@ const Navbar = () => {
 
       <div className="flex-grow flex justify-center">
 
-        <ul className="flex list-none justify-between w-full max-w-2xl text-black font-semibold">
+        <ul className="flex list-none justify-between w-full max-w-2xl text-white font-semibold">
             <li ><a href="#" className="p-6">COLLECTIONS</a></li>
             <li ><a href="#" className="p-6">ABOUT</a></li>
             <li ><a href="#" className="p-6">TESTIMONIALS</a></li>
