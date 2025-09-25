@@ -9,6 +9,7 @@ import  Testimonials from "../components/Testimonials";
 import Address from "../components/Address";
 import Contact from "../components/Contact";
 import AOS from "aos";
+import Blog from "../components/Blog";
 
 
 
@@ -28,6 +29,7 @@ const Home = () => {
       <Arrivals />
       <Testimonials />
       <Address />
+      <Blog />
       <Contact />
       
     </div>
