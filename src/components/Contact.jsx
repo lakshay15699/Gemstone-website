@@ -53,7 +53,7 @@ const Contact = () => {
 
   
   <div className="w-full py-2 mt-10 text-sm text-white font-semibold bg-yellow-500 text-center">
-    © 2024 Gemstone Palace. All rights reserved.
+    © 2022 Sayar Jewellers. All rights reserved.
   </div>
 </footer>
 
