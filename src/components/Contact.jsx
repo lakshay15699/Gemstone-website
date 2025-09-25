@@ -25,51 +25,42 @@ const Contact = () => {
         
         <div>
           <h4 className="font-semibold text-lg mb-3">Get in touch</h4>
-          <p className="text-gray-700">Mobile: 9841068852</p>
-          <p className="text-gray-700">Landline: 044-43304040</p>
-          <p className="text-gray-700">Email: jewellers.sayar@gmail.com</p>
-          <div className="flex mt-3 space-x-4 text-xl">
-            <a href="#" className="hover:text-pink-600">
-              <i className="fab fa-instagram"></i>
-            </a>
-            <a href="#" className="hover:text-blue-600">
-              <i className="fab fa-facebook"></i>
-            </a>
-            <a href="#" className="hover:text-sky-500">
-              <i className="fab fa-twitter"></i>
-            </a>
-            <a href="#" className="hover:text-red-600">
-              <i className="fab fa-pinterest"></i>
-            </a>
-          </div>
+          <p className="text-black text-xs ">Mobile: 9841068852</p>
+          <p className="text-black text-xs mt-4">Landline: 044-43304040</p>
+          <p className="text-black text-xs mt-4">Email: jewellers.sayar@gmail.com</p>
+          
         </div>
 
        
         <div>
           <h4 className="font-semibold text-lg mb-3">Collections</h4>
-          <p className="text-gray-700">Temple Jewellery</p>
-          <p className="text-gray-700">Gemstone & Polki</p>
+          <a className="text-black text-xs">Temple Jewellery</a> 
+          <br />
+         
+          <a className="text-black text-xs">Gemstone & Polki</a>
         </div>
 
         
         <div>
           <h4 className="font-semibold text-lg mb-3">More</h4>
-          <a href="/Aboutus" hreclassName="text-gray-700">About us</a>
-          <p className="text-gray-700">Testimonials</p>
+          <a href="/Aboutus" className=" text-black text-xs ">About us</a> 
+          <br />
+            <a href="/Testimonial" className="text-black text-xs">Testimonials</a> 
+          
         </div>
 
         
         <div>
           <h4 className="font-semibold text-lg mb-3">Address</h4>
-          <p className="text-gray-700">
+          <p className="text-black text-xs">
             Sayar Jewellers, 656, Mount Rd, Thousand Lights East, Thousand
             Lights, Chennai, Tamil Nadu, 600006
           </p>
 
-          <p className="text-gray-700 mt-2">
+          <p className="text-black text-xs mt-4">
             Monday – Saturday : 10:00 am to 07:30 pm
           </p>
-          
+
         </div>
       </div>
     </footer>

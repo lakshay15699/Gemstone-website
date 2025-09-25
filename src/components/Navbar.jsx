@@ -34,7 +34,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="#" className="p-3 md:p-6 block text-center">
+            <a href="/Testimonial" className="p-3 md:p-6 block text-center">
               TESTIMONIALS
             </a>
           </li>
