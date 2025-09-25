@@ -37,11 +37,31 @@ const Address = () => {
 
         
         <div className="md:w-1/2 w-full flex flex-col justify-center">
-          <p className="text-lg">
+        <h4 className="font-semibold text-lg mb-3">Address</h4>
+          <p className="text-s">
             Sayar Jewellers, 656, Mount Rd, Thousand Lights East, Thousand Lights,<br />
             Chennai, Tamil Nadu, 600006<br />
             
           </p>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-10">
+  
+  <div>
+    <h4 className="font-semibold text-lg mb-3">Contact</h4>
+    <p className="text-sm">
+      Mobile: 9841068852 <br />
+      Landline: 044-43304040
+    </p>
+  </div>
+
+  
+  <div>
+    <h4 className="font-semibold text-lg mb-3">Hours</h4>
+    <p className="text-sm">
+      Monday - Saturday <br />
+      10:00am to 07:30pm
+    </p>
+  </div>
+</div>
         </div>
       </div>
     </div>

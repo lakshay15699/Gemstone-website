@@ -1,6 +1,6 @@
 import React from "react";
 
-const Contactus = () => {
+const Contact = () => {
   return (
     <footer className="bg-gray-50 px-6 py-12">
     
@@ -65,13 +65,15 @@ const Contactus = () => {
             Sayar Jewellers, 656, Mount Rd, Thousand Lights East, Thousand
             Lights, Chennai, Tamil Nadu, 600006
           </p>
+
           <p className="text-gray-700 mt-2">
             Monday – Saturday : 10:00 am to 07:30 pm
           </p>
+          
         </div>
       </div>
     </footer>
   );
 };
 
-export default Contactus;
+export default Contact;

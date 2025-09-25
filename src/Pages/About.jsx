@@ -1,9 +1,9 @@
 import React from "react";
-import background1 from "../assets/hero-image.webp";
+import background3 from "../assets/hero-image.webp";
 import { FaGem, FaSearch } from "react-icons/fa";
 import { GiNecklaceDisplay } from "react-icons/gi";
 import { FaHandshake } from "react-icons/fa6";
-import Contactus from "../components/Contact";
+import Contact from "../components/Contact";
 import Navbar from "../components/Navbar";
 
 const features = [
@@ -32,7 +32,7 @@ const Aboutus = () => {
         <Navbar />
       <div
         className="w-full h-[70vh] bg-cover bg-center"
-        style={{ backgroundImage: `url(${background1})` }}
+        style={{ backgroundImage: 'url(' + background3 + ')'}}
       ></div>
 
       {/* About Us Section */}
@@ -121,7 +121,7 @@ const Aboutus = () => {
           </div>
         </section>
       </section>
-        <Contactus />
+        <Contact />
     </div>
   );
 };

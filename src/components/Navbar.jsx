@@ -39,7 +39,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="#" className="p-3 md:p-6 block text-center">
+            <a href="/Contactus" className="p-3 md:p-6 block text-center">
               CONTACT
             </a>
           </li>
