@@ -1,5 +1,6 @@
 import React , {useState} from "react";      
 import{AiOutlineClose, AiOutlineMenu} from 'react-icons/ai';
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
 
@@ -28,7 +29,7 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="#" className="p-3 md:p-6 block text-center">
+            <a href="/Aboutus" className="p-3 md:p-6 block text-center">
               ABOUT
             </a>
           </li>

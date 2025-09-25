@@ -7,6 +7,7 @@ import Polki from "../components/Polki";
 import Arrivals from "../components/Arrivals";
 import  Testimonials from "../components/Testimonials";
 import Address from "../components/Address";
+import Contactus from "../components/Contact";
 import AOS from "aos";
 
 
@@ -14,8 +15,9 @@ import AOS from "aos";
 
 const Home = () => {
   useEffect(() => {
-    AOS.init({ duration: 1000, once: true }); // animate once
+    AOS.init({ duration: 1000, once: true }); 
   }, []);
+  
   return (
     <div>
       <Navbar />
@@ -26,6 +28,7 @@ const Home = () => {
       <Arrivals />
       <Testimonials />
       <Address />
+      <Contactus />
       
     </div>
   );

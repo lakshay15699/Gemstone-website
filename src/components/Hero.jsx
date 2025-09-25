@@ -1,5 +1,5 @@
 import React from "react";
-import background from '../assets/background.jpg';
+import background from '../assets/hero-image.webp'; 
 
 const Hero = () => {
   return (
@@ -8,7 +8,7 @@ const Hero = () => {
       
       style={{ backgroundImage: 'url(' + background + ')' }}
     >
-       <div className="absolute inset-0 bg-black bg-opacity-50" ></div>
+       <div className="absolute inset-0 bg-black bg-opacity-20" ></div>
 
       
       <div className="relative z-10 flex flex-col justify-center h-full text-left text-white px-4 md:px-12" >
