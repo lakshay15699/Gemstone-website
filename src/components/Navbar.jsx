@@ -295,7 +295,7 @@ const Navbar = () => {
               CONTACT
             </a>
             <a 
-              href="/blog" 
+              href="/blogpage" 
               className="block py-3 px-4 text-gray-800 font-bold text-lg hover:bg-amber-50 hover:text-amber-600 rounded-lg transition-colors"
               onClick={handleNav}
             >
