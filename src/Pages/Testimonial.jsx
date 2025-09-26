@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+
 import background5 from "../assets/testimonials-bg.webp";
 import Contact from "../components/Contact";
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -40,7 +40,7 @@ const Testimonial = () => {
   return (
     <div className="flex flex-col min-h-screen">
       
-      <Navbar />
+     
 
       
       <div
@@ -98,6 +98,9 @@ const Testimonial = () => {
      <div className="mt-auto">
         <Contact />
       </div>
+      <div className="w-full py-2 mt-0 text-sm text-white font-semibold bg-yellow-500 text-center">
+    © 2022 Sayar Jewellers. All rights reserved.
+  </div>
     </div>
   );
     

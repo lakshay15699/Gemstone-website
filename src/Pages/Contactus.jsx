@@ -1,5 +1,5 @@
 import React from "react";
-import Navbar from "../components/Navbar";
+
 import background4 from "../assets/contanctus-bg.webp";
 import Contact from "../components/Contact";
 
@@ -7,7 +7,7 @@ const Contactus = () => {
   return (
     <div className="flex flex-col min-h-screen">
       
-      <Navbar />
+      
 
       
       <div
@@ -108,6 +108,9 @@ const Contactus = () => {
       <div className="mt-auto">
         <Contact />
       </div>
+      <div className="w-full py-2 mt-0 text-sm text-white font-semibold bg-yellow-500 text-center">
+    © 2022 Sayar Jewellers. All rights reserved.
+  </div>
     </div>
   );
 };

@@ -4,7 +4,7 @@ import { FaGem, FaSearch } from "react-icons/fa";
 import { GiNecklaceDisplay } from "react-icons/gi";
 import { FaHandshake } from "react-icons/fa6";
 import Contact from "../components/Contact";
-import Navbar from "../components/Navbar";
+
 
 const features = [
   {
@@ -29,7 +29,7 @@ const Aboutus = () => {
   return (
     
     <div className="w-full">
-        <Navbar />
+        
       <div
         className="w-full h-[70vh] bg-cover bg-center"
         style={{ backgroundImage: 'url(' + background3 + ')'}}
@@ -122,6 +122,9 @@ const Aboutus = () => {
         </section>
       </section>
         <Contact />
+        <div className="w-full py-2 mt-0 text-sm text-white font-semibold bg-yellow-500 text-center">
+    © 2022 Sayar Jewellers. All rights reserved.
+  </div>
     </div>
   );
 };
