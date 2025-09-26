@@ -17,11 +17,11 @@ const Blogs = () => {
           
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
-            <article className="bg-[#1C0E06] rounded-s shadow-sm overflow-hidden ">
+            <article className="bg-[#1C0E06] rounded-s shadow-sm overflow-hidden group cursor-pointer hover:shadow-md transition-shadow duration-300 ">
               <img 
                 src="https://cdn.prod.website-files.com/62445c7e184806f3e9ab9904/6245437d576877bb379fc376_jewellery-care-guide-thumbnail.jpg" 
                 alt="gemstone care guide with various colorful gemstones on dark surface"
-                className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500"
+                className="w-full h-56 object-cover "
               />
               <div className="p-6">
                 <h4 className="text-4xl font-medium text-white mb-3 ">
@@ -51,11 +51,11 @@ const Blogs = () => {
               </div>
             </article>
 
-            <article className="bg-[#1C0E06] rounded-s shadow-sm overflow-hidden">
+            <article className="bg-[#1C0E06] rounded-s shadow-sm overflow-hidden group cursor-pointer hover:shadow-md transition-shadow duration-300">
               <img 
                 src="https://cdn.prod.website-files.com/62445c7e184806f3e9ab9904/6245447c5220719db41c8959_bridal-jewellery-shopping-guide.jpg" 
                 alt="elegant bridal jewellery set with emeralds and diamonds"
-                className="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500"
+                className="w-full h-56 object-cover "
               />
               <div className="p-6">
                 <h4 className="text-4xl font-medium text-white mb-3">
