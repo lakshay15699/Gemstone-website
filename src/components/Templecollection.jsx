@@ -7,7 +7,7 @@ const Templecollection = () => {
     <div className="min-h-screen bg-white">
       {/* Hero Section - No Text */}
       <div 
-        className="relative h-screen bg-cover bg-center bg-no-repeat"
+        className=" hidden md:flex relative h-screen bg-cover bg-center bg-no-repeat"
         style={{ 
           backgroundImage: 'url(https://uploads-ssl.webflow.com/62428c67e286b9c91b3899d0/624a95a952efc8a466ffd351_temple-jewellery-header.webp)' 
         }}
