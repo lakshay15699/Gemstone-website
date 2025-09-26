@@ -33,7 +33,7 @@ const Templecollection = () => {
       </div>
 
       {/* Center Content */}
-      <div className="col-span-2 px-8 text-center">
+      <div className="hidden md:flex col-span-2 px-8 text-center">
         <div className="space-y-8">
           <div>
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
