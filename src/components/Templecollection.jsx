@@ -7,7 +7,7 @@ const Templecollection = () => {
     <div className="min-h-screen bg-white">
       {/* Hero Section - No Text */}
       <div 
-        className=" hidden md:flex relative h-screen bg-cover bg-center bg-no-repeat"
+        className="relative h-screen bg-cover bg-center bg-no-repeat"
         style={{ 
           backgroundImage: 'url(https://uploads-ssl.webflow.com/62428c67e286b9c91b3899d0/624a95a952efc8a466ffd351_temple-jewellery-header.webp)' 
         }}
@@ -33,7 +33,7 @@ const Templecollection = () => {
       </div>
 
       {/* Center Content */}
-      <div className="hidden md:flex col-span-2 px-8 text-center">
+      <div className="col-span-2 px-8 text-center">
         <div className="space-y-8">
           <div>
             <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
@@ -75,37 +75,7 @@ const Templecollection = () => {
   </div>
 </section>
 
-{/* Mobile Version - Stack vertically on smaller screens */}
-<section className="py-20 px-6 bg-white md:hidden">
-  <div className="max-w-7xl mx-auto space-y-8">
-    {/* Mobile: Stack all elements vertically */}
-    <div className="relative overflow-hidden rounded-2xl shadow-2xl">
-      <img 
-        src="https://uploads-ssl.webflow.com/62428c67e286b9c91b3899d0/624a9a14c3991e817d4408f8_tj-01.webp" 
-        alt="South Indian bridal attire and temple jewellery"
-        className="w-full h-[300px] object-cover"
-      />
-    </div>
-    
-    <div className="text-center">
-      <h1 className="text-3xl font-bold text-gray-900 mb-4">Temple Jewellery</h1>
-      <p className="text-base text-gray-700 leading-relaxed mb-4">
-        Carved with the figurines of Gods and Goddesses, Temple Jewellery tells an enchanting story of our Indian mythology.
-      </p>
-      <button className="inline-flex items-center text-amber-600 hover:text-amber-700 font-semibold transition-colors duration-300">
-        Learn More
-        <svg className="ml-2 w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-          <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
-        </svg>
-      </button>
-    </div>
-    
-    <div className="grid grid-cols-2 gap-4">
-      <img src="https://uploads-ssl.webflow.com/62428c67e286b9c91b3899d0/624a9a150967e08520589174_tj-02.webp" alt="Temple jewellery" className="w-full h-[200px] object-cover rounded-xl" />
-      <img src="https://uploads-ssl.webflow.com/62428c67e286b9c91b3899d0/624a9a147df65f7562c49bf8_tj-03.webp" alt="Gold earrings" className="w-full h-[200px] object-cover rounded-xl" />
-    </div>
-  </div>
-</section>
+
         {/* Timeless Beauty Section */}
         <section className="py-20 px-6 bg-white">
           <div className="max-w-7xl mx-auto">
