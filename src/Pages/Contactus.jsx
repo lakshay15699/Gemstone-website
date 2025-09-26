@@ -105,12 +105,9 @@ const Contactus = () => {
 
 
       
-      <div className="mt-auto">
-        <Contact />
-      </div>
-      <div className="w-full py-2 mt-0 text-sm text-white font-semibold bg-yellow-500 text-center">
-    © 2022 Sayar Jewellers. All rights reserved.
-  </div>
+      
+      
+      
     </div>
   );
 };

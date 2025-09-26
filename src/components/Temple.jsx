@@ -1,7 +1,9 @@
 import React from "react";
 import templebg from "../assets/temple-jewellery-bg.webp";
+import { useNavigate } from 'react-router-dom';
 
 const Temple = () => {
+  const navigate = useNavigate();
   return (
     <div className="min-h-screen bg-white flex flex-col md:flex-row">
       <div className="md:w-1/2 bg-orange-800 text-white flex flex-col justify-center px-6 py-20">
@@ -14,7 +16,9 @@ const Temple = () => {
           precision with their temple jewellery collection, each piece
           handcrafted to perfection.
         </p>
-        <button className="inline-flex self-start items-center text-gray-200 text-base">
+        <button 
+        onClick={() => navigate('/Templecollection')}
+        className="inline-flex self-start items-center text-gray-200 text-base">
           Explore Collection
           <svg
             className="ml-2 w-5 h-7"

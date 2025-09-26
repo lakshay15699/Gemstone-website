@@ -29,8 +29,8 @@ const Contact = () => {
 
     <div>
       <h4 className="font-semibold text-lg mb-3">Collections</h4>
-      <a className="text-black text-xs">Temple Jewellery</a> <br />
-      <a className="text-black text-xs">Gemstone & Polki</a>
+      <a href="/Templecollection" className="text-black text-xs">Temple Jewellery</a> <br />
+      <a href="/Polkicollection" className="text-black text-xs">Gemstone & Polki</a>
     </div>
 
     <div>

@@ -13,9 +13,10 @@ import Polki from "../components/Polki";
 import Arrivals from "../components/Arrivals";
 import Testimonials from "../components/Testimonials";
 import Address from "../components/Address";
-import Contact from "../components/Contact";
-import WhatsAppFloat from "../components/Whatsappfloat";
+
+
 import Blog from "../components/Blog";
+import Templecollection from "../components/Templecollection";
 
 const Home = () => {
   useEffect(() => {
@@ -118,21 +119,15 @@ const Home = () => {
         </section>
 
         {/* Contact Section */}
-        <section 
-          id="contact"
-          className="scroll-mt-20"
-        >
-          <Contact />
-        </section>
+        
+        
       </main>
       
       {/* Floating WhatsApp */}
-      <WhatsAppFloat />
+      
       
       {/* Footer */}
-      <div className="w-full py-2 mt-0 text-sm text-white font-semibold bg-yellow-500 text-center">
-        © 2024 Sayar Jewellers. All rights reserved.
-      </div>
+      
     </div>
   );
 };
